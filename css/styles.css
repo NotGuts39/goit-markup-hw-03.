@@ -92,23 +92,21 @@ p {
 
 .page-header {
   border-bottom: 1px solid #ececec;
-  height: 80px;
-
-  display: flex;
-  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 /* main-nav */
 
 .main-nav {
   display: flex;
-  align-items: center;
 }
 
 .main-link {
   margin-left: 93px;
 }
 .secondary-link {
+  display: inline;
   margin-left: 331px;
 }
 
@@ -159,6 +157,8 @@ p {
   letter-spacing: 0.06em;
 
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .banner-title {
@@ -171,8 +171,6 @@ p {
 
   margin-top: 0;
   margin-bottom: 30px;
-
-  padding-top: 200px;
 }
 /* Button */
 
@@ -185,7 +183,6 @@ p {
   background-color: var(--accent-color);
   cursor: pointer;
 
-  margin-bottom: 200px;
   min-width: 200px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -269,7 +266,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  margin-top: 30px;
+
   margin-bottom: 10px;
 }
 
@@ -277,12 +274,20 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  margin-bottom: 30px;
+
   color: var(--primary-text-color);
+}
+.name-decoration {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .section-superiority {
   padding-top: 94px;
+}
+
+.team li {
+  background-color: var(--primary-white-color);
 }
 
 .section {
@@ -291,10 +296,6 @@ p {
 }
 
 /* Foother */
-
-.address {
-  background-color: var(--background-grey-color);
-}
 
 .address-city {
   font-weight: 400;
@@ -319,8 +320,10 @@ p {
   margin-top: 9px;
 }
 
-.address ul {
+.foother {
+  padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--background-grey-color);
 }
 
 .address-nav:hover,
@@ -328,9 +331,8 @@ p {
   color: var(--accent-color);
 }
 
-.logo-link {
-  padding-top: 60px;
-  padding-bottom: 20px;
+.address ul {
+  padding-top: 20px;
 }
 
 /* PORTFOLIO */
@@ -345,6 +347,10 @@ p {
 
 .buttons li {
   margin-left: 8px;
+}
+
+.buttons li:first-child {
+  margin-left: 0;
 }
 
 .button-projects {
@@ -411,6 +417,7 @@ p {
 }
 
 .gallery-border {
+  padding: 20px 24px;
   border-bottom: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
