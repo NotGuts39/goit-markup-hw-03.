@@ -62,6 +62,11 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Logo */
 .logo {
   color: var(--accent-color);
@@ -98,6 +103,11 @@ p {
 
 /* main-nav */
 
+.header-container {
+  display: flex;
+  text-align: center;
+}
+
 .main-nav {
   display: flex;
 }
@@ -107,7 +117,7 @@ p {
 }
 .secondary-link {
   display: inline;
-  margin-left: 331px;
+  margin-left: auto;
 }
 
 /* Site nav */
@@ -278,8 +288,8 @@ p {
   color: var(--primary-text-color);
 }
 .name-decoration {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section-superiority {
@@ -317,6 +327,9 @@ p {
   font-style: normal;
 
   display: inline-block;
+}
+
+.feedback {
   margin-top: 9px;
 }
 
@@ -331,8 +344,9 @@ p {
   color: var(--accent-color);
 }
 
-.address ul {
-  padding-top: 20px;
+.container a.logo {
+  display: block;
+  margin-bottom: 30px;
 }
 
 /* PORTFOLIO */
