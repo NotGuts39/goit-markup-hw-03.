@@ -68,6 +68,7 @@ img {
 }
 
 /* Logo */
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway;
@@ -124,6 +125,7 @@ img {
 
 .site-nav {
   display: flex;
+  align-items: center;
 }
 
 .site-nav li {
@@ -344,7 +346,7 @@ img {
   color: var(--accent-color);
 }
 
-.container a.logo {
+.address-logo {
   display: block;
   margin-bottom: 30px;
 }
